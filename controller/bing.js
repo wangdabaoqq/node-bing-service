@@ -13,8 +13,7 @@ class BingClass {
         data,
         total
       })
-    }
-    catch {
+    } catch {
       res.send({
         status: 0,
         message: 'error'
